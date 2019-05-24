@@ -1,0 +1,194 @@
+fileFormatVersion: 2
+guid: 96f75990df506c4448e807ce1e920751
+timeCreated: 1507122377
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: CityBG
+    21300002: Canopy
+    21300004: Tree1
+    21300006: Tree2
+    21300008: GrassTrees
+    21300010: DirtGrass
+    21300012: City
+    21300014: Canopy
+    21300016: Tree1
+    21300018: Tree2
+    21300020: BGtree
+    21300022: Ground
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 0
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 5
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: City
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 399
+        width: 500
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 214, y: 50.5}
+        - {x: 75, y: 50.5}
+        - {x: 55, y: 13.5}
+        - {x: 55, y: 1.5}
+        - {x: 55, y: 4.5}
+        - {x: 49, y: 44.5}
+        - {x: 46, y: 50.5}
+        - {x: -245, y: 50.5}
+        - {x: -206, y: 12.5}
+        - {x: -206, y: 4.5}
+        - {x: -206, y: 5.5}
+        - {x: -208, y: 8.5}
+        - {x: -221, y: 17.5}
+        - {x: -232, y: 26.5}
+        - {x: -245, y: 27.5}
+        - {x: -250, y: 16.5}
+        - {x: -250, y: -50.5}
+        - {x: 250, y: -50.5}
+        - {x: 250, y: 23.5}
+        - {x: 235, y: 47.5}
+    - name: Canopy
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 372
+        width: 500
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Tree1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 270
+        width: 80
+        height: 93
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -29, y: 46.5}
+        - {x: -40, y: 41.5}
+        - {x: -40, y: -3.5}
+        - {x: -36, y: -8.5}
+        - {x: -25, y: -18.5}
+        - {x: -33, y: -46.5}
+        - {x: 40, y: -46.5}
+        - {x: 40, y: 46.5}
+    - name: Tree2
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 269
+        width: 80
+        height: 93
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -40, y: 46.5}
+        - {x: -40, y: -40.5}
+        - {x: -39, y: -46.5}
+        - {x: 30, y: -46.5}
+        - {x: 39, y: -45.5}
+        - {x: 40, y: -40.5}
+        - {x: 40, y: 46.5}
+    - name: BGtree
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 196
+        width: 500
+        height: 69
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -250, y: 34.5}
+        - {x: -250, y: -34.5}
+        - {x: 250, y: -34.5}
+        - {x: 250, y: 34.5}
+    - name: Ground
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 74
+        width: 500
+        height: 116
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 133, y: 58}
+        - {x: 126, y: 57}
+        - {x: 120, y: 58}
+        - {x: -59, y: 58}
+        - {x: -63, y: 57}
+        - {x: -68, y: 58}
+        - {x: -94, y: 58}
+        - {x: -102, y: 56}
+        - {x: -111, y: 58}
+        - {x: -249, y: 58}
+        - {x: -250, y: 56}
+        - {x: -250, y: -58}
+        - {x: 250, y: -58}
+        - {x: 250, y: 56}
+        - {x: 242, y: 58}
+      - - {x: -14, y: 54}
+        - {x: -11, y: 55}
+        - {x: -11, y: 58}
+        - {x: -15, y: 58}
+        - {x: -16, y: 57}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
