@@ -25,7 +25,7 @@ public class bitpredict2 : MonoBehaviour
 
     private void Update()
     {
-        Debug.Log("Hooman: " + q_number + "AI: " + q_numberAI);
+        Debug.Log("Current biterror = " + biterror);
 
         if (q_number == 10)
         {
@@ -44,6 +44,7 @@ public class bitpredict2 : MonoBehaviour
         PlayerWin.SetActive(false);
         PlayerLose.SetActive(false);
         q_number = -1;
+        biterror = -1;
         generate_questions();
         q_numberAI = q_number + 10;
     }

@@ -25,7 +25,7 @@ public class bitpredict3 : MonoBehaviour
 
     private void Update()
     {
-        Debug.Log("Hooman: " + q_number + "AI: " + q_numberAI);
+        Debug.Log("Current biterror = "+biterror);
 
         if (q_number == 10)
         {
@@ -44,6 +44,7 @@ public class bitpredict3 : MonoBehaviour
         PlayerWin.SetActive(false);
         PlayerLose.SetActive(false);
         q_number = -1;
+        biterror = -2;
         generate_questions();
         q_numberAI = q_number + 10;
     }
@@ -65,7 +66,7 @@ public class bitpredict3 : MonoBehaviour
         //new additions!!
         if (bit == 1)//correct answer is 1
         {
-            if (biterror < 2)//if biterror is 1, increase it to 2 | < 3 for 3 bit scheme
+            if (biterror < 3)//if biterror is 1, increase it to 2 | < 3 for 3 bit scheme
             {
                 biterror++;
             }
